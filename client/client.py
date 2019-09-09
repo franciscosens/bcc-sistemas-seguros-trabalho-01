@@ -17,7 +17,7 @@ def download_seguro():
 
     try:
         with pyzipper.AESZipFile(arquivo_nome) as zf:
-            zf.pwd = b'123'
+            zf.pwd = b'5DBE7D079067809BB06F7C80DE78ECB9D914F5735265148CD704F85353FC0B5114EBBFC960539CD3F430E7B12EB3FDC261726BB756BAB9658C6DB6A302913DF1'
             zf.extractall()
             return 'Feito o download do arquivo de forma segura'
     except:
